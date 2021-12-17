@@ -103,20 +103,20 @@ public class ManagerPerson implements Manager {
         if (!check) {
             System.out.println("Student not on this list");
         }
-        display(); // Hoặc không cần tùy
+        display();
     }
 
 //    @Override
-//    public void arrangeListByAverageScore() {
-//        Human[] newHumanList = new Human[humanList.size()];
-//        for (int i = 0; i < humanList.size(); i++) {
-//            newHumanList[i] = humanList.get(i);
+//    public void arrangeListByAveragePoint() {
+//        Person[] newHumanList = new Person[personList.size()];
+//        for (int i = 0; i < personList.size(); i++) {
+//            newPersonList[i] = personList.get(i);
 //        }
-//        Comparator<Human> comparator = new ComparatorManage();
-//        Arrays.sort(newHumanList,comparator);
+//        Comparator<Person> comparator = new ComparatorManager();
+//        Arrays.sort(newPersonList,comparator);
 //
-//        for (Human human : newHumanList) {
-//            System.out.println(human);
+//        for (Person person : newPersonList) {
+//            System.out.println(person);
 //        }
 //    }
 
